@@ -1,0 +1,11 @@
+﻿Linux commands
+//creating bash file
+$ vim aws_resource_tracker.sh
+
+
+// executes the file
+$ ./ aws_resource_tracker.sh 
+
+
+#Giving permissions to the user
+$ chmod 777 aws_resource_tracker.sh

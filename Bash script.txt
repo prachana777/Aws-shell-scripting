@@ -1,0 +1,29 @@
+﻿#!/bin/bash
+
+
+# Author: Rachana P
+# Date: 08/04/2024
+# Version: v1
+# This script will report the aws resource usage
+
+
+#AWS S3
+#AWS EC2
+#AWS Lambda
+#AWS IAM users
+
+
+echo “Print list of s3 Buckets“
+aws s3 ls
+
+
+echo “Print list of ec2 instances“
+aws ec2 describe-instances
+
+
+echo “Print list of lambda functions“ 
+aws lambda list-functions
+
+
+echo “Print list of iam users“
+aws iam list-users
